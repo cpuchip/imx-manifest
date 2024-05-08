@@ -32,9 +32,7 @@
   <project name="meta-security" remote="yp" path="sources/meta-security" revision="d7db0a3bd1a8639df7570483f003ce00cbe274a2" upstream="mickledore" />
   <project name="meta-timesys" remote="timesys" path="sources/meta-timesys" revision="0792a1f2c23e123cc4098d52b7696da990f5d8d4" upstream="mickledore" />
   <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization" revision="38e6b3e2fe0219c773f4637a09221ca5d15bf6fc" upstream="mickledore" />
-  <project name="meta-matter" remote="nxp-imx" path="sources/meta-matter" revision="refs/tags/imx_matter_2023_q4" upstream="master" >
-     <linkfile src="tools/imx-matter-setup.sh" dest="imx-matter-setup.sh"/>
-  </project>
+  <project name="meta-matter" remote="nxp-imx" path="sources/meta-matter" revision="refs/tags/imx_matter_2023_q4" upstream="master" />
 
   <project name="meta-imx" remote="nxp-imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.1.55_2.2.0" upstream="mickledore-6.1.55-2.2.0" >
      <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
